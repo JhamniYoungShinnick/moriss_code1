@@ -1,5 +1,6 @@
 
 int unit = 800;
+String code= "";
 
 // the setup function runs once when you press reset or power the board
 void setup() {
@@ -9,9 +10,16 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  dot();
-  dash();
   space();
+  space();
+  space();
+  for(int i = 0; i < code.length(); i ++){
+    if case 'a':
+    dot();
+    dash();
+    space();
+    
+  }
 }
 //*dot
 void dot(){
@@ -33,3 +41,5 @@ void space(){
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(unit);                       // wait for a .8second
 }
+
+
