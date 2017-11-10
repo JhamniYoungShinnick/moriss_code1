@@ -1,6 +1,6 @@
 
-int unit = 800;
-String code= "hi";
+int unit = 800; //unit for pause
+String code= "hi"; //<<<<<<<**Message input here**
 
 // the setup function runs once when you press reset or power the board
 void setup() {
